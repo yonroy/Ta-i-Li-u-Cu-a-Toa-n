@@ -3,4 +3,4 @@ def tich(n):
         return 1
     return n*(n-1)*tich((n-1)-1)
 
-print("1/",tich(9))
+print("1/",tich(n))
